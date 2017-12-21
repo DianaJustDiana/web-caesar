@@ -31,13 +31,13 @@ form = """
         <form action="/" method="post">
             <label for="rot">
                 Rotate by:
-
-                <input type="text" id="rot" name="rot" value="0">
-                    <textarea id="text" name="text" >{0}
-                    </textarea>
-                </input>
-
             </label>
+
+            <input type="text" id="rot" name="rot" value="0">
+                <textarea id="text" name="text" >{0}
+                </textarea>
+            </input>
+
 
             <input type="submit" value="Submit query">
 
